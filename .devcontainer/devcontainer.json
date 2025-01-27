@@ -1,0 +1,8 @@
+{
+  "name": "My Dev Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:0-focal",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+  },
+  "postCreateCommand": "echo 'Setup complete!'"
+}
